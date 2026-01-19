@@ -103,7 +103,7 @@ const Home: React.FC = () => {
             <img 
               alt="Sterling McKinley" 
               className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" 
-              src="./smckinley_pic.png" 
+              src="./smckinley_pic.jpg" 
               onError={(e) => {
                 const target = e.target as HTMLImageElement;
                 if (!target.src.endsWith('.jpg')) {
