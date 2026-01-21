@@ -86,13 +86,13 @@ const About: React.FC = () => {
         <div className="flex flex-col space-y-8">
           <div className="bg-white p-4 rounded-3xl border border-slate-100 shadow-xl">
             <img 
-              src="./pages/assets/smckinley_pic.jpg" 
+              src="/assets/smckinley_pic.jpg" 
               alt="Sterling McKinley" 
               className="rounded-2xl w-full aspect-[4/5] object-cover mb-4"
               onError={(e) => {
                 const target = e.target as HTMLImageElement;
                 if (!target.src.includes('.jpg')) {
-                  target.src = './pages/assets/smckinley_pic.jpg';
+                  target.src = '/assets/smckinley_pic.jpg';
                 }
               }}
             />
