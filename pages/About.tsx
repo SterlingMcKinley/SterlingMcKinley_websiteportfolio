@@ -89,12 +89,6 @@ const About: React.FC = () => {
               src="/assets/smckinley_pic.jpg" 
               alt="Sterling McKinley" 
               className="rounded-2xl w-full aspect-[4/5] object-cover mb-4"
-              onError={(e) => {
-                const target = e.target as HTMLImageElement;
-                if (!target.src.includes('.jpg')) {
-                  target.src = '/assets/smckinley_pic.jpg';
-                }
-              }}
             />
             <div className="px-2 pb-2">
                 <p className="text-slate-900 font-bold">Sterling McKinley</p>

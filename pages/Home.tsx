@@ -104,12 +104,6 @@ const Home: React.FC = () => {
               alt="Sterling McKinley" 
               className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" 
               src="/assets/smckinley_pic.jpg"
-              onError={(e) => {
-                const target = e.target as HTMLImageElement;
-                if (!target.src.includes('.jpg')) {
-                  target.src = '/assets/smckinley_pic.jpg';
-                }
-              }}
             />
             <div className="absolute inset-0 ring-1 ring-inset ring-black/5 rounded-2xl"></div>
             {/* SRE Overlay Element */}
