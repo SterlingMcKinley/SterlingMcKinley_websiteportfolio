@@ -61,7 +61,8 @@ const Home: React.FC = () => {
       name: "AWS Certified AI Practitioner (AIF-C01)",
       date: "04/2026",
       issuer: "Amazon Web Services",
-      icon: "fa-brands fa-aws"
+      icon: "fa-brands fa-aws",
+      link: "https://www.credly.com/badges/b27b18a1-8887-4325-a592-2da126061664/public_url"
     },
     {
       name: "Fundamentals of Red Hat Enterprise Linux",
