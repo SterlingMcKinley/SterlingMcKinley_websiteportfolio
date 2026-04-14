@@ -46,12 +46,6 @@ const VisitorCounter: React.FC = () => {
 const Home: React.FC = () => {
   const certifications = [
     {
-      name: "AWS Certified AI Practitioner (AIF-C01)",
-      date: "???/2026 (Loading...)",
-      issuer: "Amazon Web Services",
-      icon: "fa-brands fa-aws"
-    },
-    {
       name: "AWS Certified Solutions Architect Associate (SAA-C03)",
       date: "???/2026 (Loading...)",
       issuer: "Amazon Web Services",
@@ -62,6 +56,12 @@ const Home: React.FC = () => {
       date: "Q3/2026 (Loading...)",
       issuer: "Google",
       icon: "fa-brands fa-google"
+    },
+    {
+      name: "AWS Certified AI Practitioner (AIF-C01)",
+      date: "04/2026",
+      issuer: "Amazon Web Services",
+      icon: "fa-brands fa-aws"
     },
     {
       name: "Fundamentals of Red Hat Enterprise Linux",
