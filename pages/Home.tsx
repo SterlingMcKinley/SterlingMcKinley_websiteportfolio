@@ -47,13 +47,13 @@ const Home: React.FC = () => {
   const certifications = [
     {
       name: "AWS Certified Solutions Architect Associate (SAA-C03)",
-      date: "???/2026 (Loading...)",
+      date: "Q3/2026 (Loading...)",
       issuer: "Amazon Web Services",
       icon: "fa-brands fa-aws"
     },
     {
       name: "Google IT Automation with Python",
-      date: "Q3/2026 (Loading...)",
+      date: "???/2026 (Loading...)",
       issuer: "Google",
       icon: "fa-brands fa-google"
     },
