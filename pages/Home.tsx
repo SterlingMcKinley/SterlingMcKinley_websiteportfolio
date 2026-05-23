@@ -7,11 +7,25 @@ const VisitorCounter: React.FC = () => {
 
   useEffect(() => {
     const key = 'sterling_portfolio_visitor_count';
-    const stored = localStorage.getItem(key);
-    // Start with a high number for aesthetic/simulated traffic volume
-    const val = stored ? parseInt(stored) + 1 : 124856;
-    setCount(val);
-    localStorage.setItem(key, val.toString());
+    const lastVisitKey = 'sterling_portfolio_last_visit';
+    const now = Date.now();
+    const lastVisit = localStorage.getItem(lastVisitKey);
+    
+    // Only count as a new visit if more than 5 seconds have passed
+    const isNewVisit = !lastVisit || (now - parseInt(lastVisit) > 5000);
+    
+    if (isNewVisit) {
+      const stored = localStorage.getItem(key);
+      // Start with a high number for aesthetic/simulated traffic volume
+      const val = stored ? parseInt(stored) + 1 : 124856;
+      setCount(val);
+      localStorage.setItem(key, val.toString());
+      localStorage.setItem(lastVisitKey, now.toString());
+    } else {
+      // Just read the current count without incrementing
+      const stored = localStorage.getItem(key);
+      setCount(stored ? parseInt(stored) : 124856);
+    }
   }, []);
 
   return (
