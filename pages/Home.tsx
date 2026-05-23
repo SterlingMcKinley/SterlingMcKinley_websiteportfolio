@@ -52,12 +52,6 @@ const Home: React.FC = () => {
       icon: "fa-brands fa-aws"
     },
     {
-      name: "Google IT Automation with Python",
-      date: "???/2026 (Loading...)",
-      issuer: "Google",
-      icon: "fa-brands fa-google"
-    },
-    {
       name: "AWS Certified AI Practitioner (AIF-C01)",
       date: "04/2026",
       issuer: "Amazon Web Services",
@@ -171,8 +165,8 @@ const Home: React.FC = () => {
               GitHub
             </a>
             <a 
-              href="sterlingmckinley_sre.pdf" 
-              download="sterlingmckinley_sre.pdf" 
+              href="sterlingmckinley_CV.pdf" 
+              download="sterlingmckinley_CV.pdf" 
               className="flex items-center border border-teal-200 text-teal-600 px-5 py-2.5 rounded-xl text-sm font-bold hover:bg-teal-50 hover:border-teal-400 transition-all shadow-sm whitespace-nowrap transition-all active:scale-95"
             >
               <i className="fa-solid fa-download mr-2"></i>
