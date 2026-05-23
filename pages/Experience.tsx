@@ -17,8 +17,8 @@ const Resume: React.FC = () => {
           </p>
         </div>
         <a 
-          href="sterlingmckinley_sre.pdf" 
-          download="sterlingmckinley_sre.pdf" 
+          href="sterlingmckinley_CV.pdf" 
+          download="sterlingmckinley_CV.pdf" 
           className="text-teal-600 font-bold hover:text-teal-700 flex items-center space-x-2 transition-colors"
         >
           <i className="fa-solid fa-download"></i>

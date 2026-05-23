@@ -4,6 +4,14 @@ import { Project, Experience, BlogPost } from './types';
 export const PROJECTS: Project[] = [
   {
     id: '1',
+    title: 'AI CHATBOT with AMAZON BEDROCK',
+    description: 'Integrate artificial intelligence into an application',
+    tags: ['Python', 'Linux', 'AWS CloudShell', 'Amazon Bedrock', 'Bedrock Converse API', ' BedrockGuardrails'],
+    link: 'https://github.com/SterlingMcKinley/ai-chatbot-with-amazon-bedrock',
+    icon: 'fa-brain'    
+  },
+  {
+    id: '2',
     title: 'AI IDEA GENERATOR',
     description: 'Integrate artificial intelligence into an application',
     tags: ['Python', 'Streamlit', 'OPENAI'],
@@ -11,7 +19,7 @@ export const PROJECTS: Project[] = [
     icon: 'fa-brain'    
   },
   {
-    id: '2',
+    id: '3',
     title: 'CI/CD (Continuous Integration/Continuous Delivery)',
     description: 'CI/CD pipeline to deploy a Flask application',
     tags: ['Git', 'GitHub', 'Jenkins', 'AWS EC2', 'AWS Elastic Beanstalk', 'Python'],
@@ -19,7 +27,7 @@ export const PROJECTS: Project[] = [
     icon: 'fa-infinity'
   },
   {
-    id: '3',
+    id: '4',
     title: 'Redis-Challenge',
     description: 'Created a local Kubernetes environment using K3d to deploy an application (which consists of a MongoExpress frontend & MongoDB backend)',
     tags: ['Linux', 'Redis', 'Docker', 'Kubernetes', 'Minikube', 'Python'],
@@ -27,7 +35,7 @@ export const PROJECTS: Project[] = [
     icon: 'fa-database'
   },
   {
-    id: '4',
+    id: '5',
     title: 'Notifications / Alerts System',
     description: 'Send real-time notifications to subscribed users via SMS/Email.',
     tags: ['Amazon SNS', 'AWS Lambda', 'Amazon EventBridge', 'AWS CLI', 'Python', 'External API'],
@@ -35,7 +43,7 @@ export const PROJECTS: Project[] = [
     icon: 'fa-bell'
   },
   {
-    id: '5',
+    id: '6',
     title: 'MongoDB App',
     description: 'Created a local Kubernetes environment using K3d to deploy an application (which consists of a MongoExpress frontend & MongoDB backend)',
     tags: ['K3D', 'Kubernetes', 'MongoDB', 'MongoExpress', 'Docker'],
