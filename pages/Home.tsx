@@ -61,9 +61,21 @@ const Home: React.FC = () => {
   const certifications = [
     {
       name: "AWS Certified Solutions Architect Associate (SAA-C03)",
-      date: "Q3/2026 (Loading...)",
+      date: "Q4/2026 (LOADING...)",
       issuer: "Amazon Web Services",
       icon: "fa-brands fa-aws"
+    },
+      {
+      name: "Terraform Associate 004",
+      date: "Q2/2026 (LOADING...)",
+      issuer: "Hashicorp",
+      icon: "si-terraform"
+    },  
+    {
+      name: "Google AI Professional Certificate",
+      date: "Q2/2026 (LOADING...)",
+      issuer: "Google",
+      icon: "fa-brands fa-google"
     },
     {
       name: "AWS Certified AI Practitioner (AIF-C01)",
@@ -90,12 +102,12 @@ const Home: React.FC = () => {
       name: "Google AI Essentials",
       date: "04/2025",
       issuer: "Google",
-      icon: "fa-solid fa-brain",
+      icon: "fa-brands fa-google",
       link: "https://www.coursera.org/account/accomplishments/certificate/NZOZS0R56VO1"
     },
     {
       name: "KCNA: Kubernetes and Cloud Native Associate",
-      date: "01/2022",
+      date: "04/2022",
       issuer: "The Linux Foundation",
       icon: "fa-solid fa-dharmachakra",
       link: "https://www.credly.com/badges/343b2e0b-33e6-4c2e-aa11-d3a3d8d21e2f/public_url"
