@@ -67,9 +67,9 @@ const Home: React.FC = () => {
     },
       {
       name: "Terraform Associate 004",
-      date: "Q2/2026 (LOADING...)",
+      date: "Q3/2026 (LOADING...)",
       issuer: "Hashicorp",
-      icon: "si-terraform"
+      icon: "fa-solid fa-cubes"
     },  
     {
       name: "Google AI Professional Certificate",
