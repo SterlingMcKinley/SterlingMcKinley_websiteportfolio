@@ -5,7 +5,7 @@ export const PROJECTS: Project[] = [
   {
     id: '1',
     title: 'Multi-Tier Cloud-Native Observability Stack - *IN PROGRESS*',
-    description: 'Integrate artificial intelligence into an application',
+    description: 'Containerization, Infrastructure as Code (IaC), application metrics instrumented with Prometheus, and production-ready Grafana dashboards.',
     tags: ['Python', 'Prometheus', 'Grafana', 'Observability as Code', 'Docker', 'Docker Compose'],
     link: '',
     icon: 'fa-solid fa-chart-line' 
