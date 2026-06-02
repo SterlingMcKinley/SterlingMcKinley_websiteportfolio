@@ -7,7 +7,7 @@ export const PROJECTS: Project[] = [
     title: 'Multi-Tier Cloud-Native Observability Stack - *IN PROGRESS*',
     description: 'Containerization, Infrastructure as Code (IaC), application metrics instrumented with Prometheus, and production-ready Grafana dashboards.',
     tags: ['Python', 'Prometheus', 'Grafana', 'Observability as Code', 'Docker', 'Docker Compose'],
-    link: '',
+    link: 'https://github.com/SterlingMcKinley/multi-tier-cloud-native-observability',
     icon: 'fa-solid fa-chart-line' 
   },
   {
