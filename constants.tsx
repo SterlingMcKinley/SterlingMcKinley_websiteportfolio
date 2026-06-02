@@ -4,7 +4,7 @@ import { Project, Experience, BlogPost } from './types';
 export const PROJECTS: Project[] = [
   {
     id: '1',
-    title: 'Multi-Tier Cloud-Native Observability Stack - *IN PROGRESS*',
+    title: 'Multi-Tier Cloud-Native Observability Stack with Prometheus and Grafana',
     description: 'Containerization, Infrastructure as Code (IaC), application metrics instrumented with Prometheus, and production-ready Grafana dashboards.',
     tags: ['Python', 'Prometheus', 'Grafana', 'Observability as Code', 'Docker', 'Docker Compose'],
     link: 'https://github.com/SterlingMcKinley/multi-tier-cloud-native-observability',
