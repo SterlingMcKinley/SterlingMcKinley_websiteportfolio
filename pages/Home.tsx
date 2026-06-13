@@ -73,9 +73,10 @@ const Home: React.FC = () => {
     },  
     {
       name: "Google AI Professional Certificate",
-      date: "Q2/2026 (LOADING...)",
+      date: "06/2026",
       issuer: "Google",
-      icon: "fa-brands fa-google"
+      icon: "fa-brands fa-google",
+      link: "https://coursera.org/share/986355b5f1f4746a91dd8600f9d8003d"
     },
     {
       name: "AWS Certified AI Practitioner (AIF-C01)",
