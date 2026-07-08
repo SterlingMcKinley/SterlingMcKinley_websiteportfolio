@@ -4,22 +4,30 @@ import { Project, Experience, BlogPost } from './types';
 export const PROJECTS: Project[] = [
   {
     id: '1',
-    title: 'Multi-Tier Cloud-Native Observability Stack with Prometheus and Grafana',
-    description: 'Containerization, Infrastructure as Code (IaC), application metrics instrumented with Prometheus, and production-ready Grafana dashboards.',
-    tags: ['Python', 'Prometheus', 'Grafana', 'Observability as Code', 'Docker', 'Docker Compose'],
+    title: 'Cloud-Native Telemetry & Observability Stack for LLM Agents',
+    description: 'Specialized telemetry framework and observability that tracks the lifecycle of an LLM / AI agents execution with Prometheus, and production-ready Grafana dashboards.',
+    tags: ['GenAI', 'Linux', 'Python', 'Prometheus', 'Grafana', 'Observability as Code', 'Docker', 'Docker Compose'],
     link: 'https://github.com/SterlingMcKinley/multi-tier-cloud-native-observability',
     icon: 'fa-solid fa-chart-line' 
   },
   {
     id: '2',
-    title: 'AI CHATBOT with AMAZON BEDROCK',
-    description: 'Integrate artificial intelligence into an application',
-    tags: ['Python', 'Linux', 'AWS CloudShell', 'Amazon Bedrock', 'Bedrock Converse API', ' BedrockGuardrails'],
-    link: 'https://github.com/SterlingMcKinley/ai-chatbot-with-amazon-bedrock',
-    icon: 'fa-brain'    
+    title: 'Multi-Tier Cloud-Native Observability Stack with Prometheus and Grafana',
+    description: 'Containerization, Infrastructure as Code (IaC), application metrics instrumented with Prometheus, and production-ready Grafana dashboards.',
+    tags: ['Linux', 'Python', 'Prometheus', 'Grafana', 'Observability as Code', 'Docker', 'Docker Compose'],
+    link: 'https://github.com/SterlingMcKinley/multi-tier-cloud-native-observability',
+    icon: 'fa-solid fa-chart-line' 
   },
   {
     id: '3',
+    title: 'AI CHATBOT with AMAZON BEDROCK',
+    description: 'Multi-turn, interactive chatbot powered by the Amazon Nova 2 Lite model engineered with a conversational context memory and real-time safety guardrails.',
+    tags: ['Python', 'Linux', 'AWS CloudShell', 'Amazon Bedrock', 'Bedrock Converse API', ' BedrockGuardrails'],
+    link: 'https://github.com/SterlingMcKinley/ai-chatbot-with-amazon-bedrock',
+    icon:  'fa-solid fa-microchip-ai'   
+  },
+  {
+    id: '4',
     title: 'AI IDEA GENERATOR',
     description: 'Integrate artificial intelligence into an application',
     tags: ['Python', 'Streamlit', 'OPENAI'],
@@ -27,7 +35,7 @@ export const PROJECTS: Project[] = [
     icon: 'fa-brain'    
   },
   {
-    id: '4',
+    id: '5',
     title: 'CI/CD (Continuous Integration/Continuous Delivery)',
     description: 'CI/CD pipeline to deploy a Flask application',
     tags: ['Git', 'GitHub', 'Jenkins', 'AWS EC2', 'AWS Elastic Beanstalk', 'Python'],
@@ -35,7 +43,7 @@ export const PROJECTS: Project[] = [
     icon: 'fa-infinity'
   },
   {
-    id: '5',
+    id: '6',
     title: 'Redis-Challenge',
     description: 'Created a local Kubernetes environment using K3d to deploy an application (which consists of a MongoExpress frontend & MongoDB backend)',
     tags: ['Linux', 'Redis', 'Docker', 'Kubernetes', 'Minikube', 'Python'],
