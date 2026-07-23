@@ -8,7 +8,7 @@ export const PROJECTS: Project[] = [
     description: 'Multi-tier, highly available AWS architecture using Terraform and AWS Fault Injection Simulator (FIS)',
     tags: ['Terraform', 'Linux', 'Python', 'AWS', 'AWS Fault Injection Simulator',],
     link: 'https://github.com/SterlingMcKinley/sre-3tier-terraform/',
-    icon: 'devicon-terraform-plain'  
+    icon: 'fa-brands fa-aws'  
   },
   {
     id: '2',
