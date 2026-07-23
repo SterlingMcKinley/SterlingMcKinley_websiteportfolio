@@ -4,6 +4,14 @@ import { Project, Experience, BlogPost } from './types';
 export const PROJECTS: Project[] = [
   {
     id: '1',
+    title: '3 Tier Infra Terraform Build w/ SRE Chaos Engineering',
+    description: 'Multi-tier, highly available AWS architecture using Terraform and AWS Fault Injection Simulator (FIS)',
+    tags: ['Terraform', 'Linux', 'Python', 'AWS', 'AWS Fault Injection Simulator',],
+    link: 'https://github.com/SterlingMcKinley/sre-3tier-terraform/',
+    icon: 'devicon-terraform-plain'  
+  },
+  {
+    id: '2',
     title: 'Cloud-Native Telemetry & Observability Stack for LLM Agents',
     description: 'Specialized telemetry framework and observability that tracks the lifecycle of an LLM / AI agents execution with Prometheus, and production-ready Grafana dashboards.',
     tags: ['GenAI', 'Linux', 'Python', 'Prometheus', 'Grafana', 'Observability as Code', 'Docker', 'Docker Compose'],
@@ -11,7 +19,7 @@ export const PROJECTS: Project[] = [
     icon: 'fa-solid fa-chart-line' 
   },
   {
-    id: '2',
+    id: '3',
     title: 'Multi-Tier Cloud-Native Observability Stack with Prometheus and Grafana',
     description: 'Containerization, Infrastructure as Code (IaC), application metrics instrumented with Prometheus, and production-ready Grafana dashboards.',
     tags: ['Linux', 'Python', 'Prometheus', 'Grafana', 'Observability as Code', 'Docker', 'Docker Compose'],
@@ -19,7 +27,7 @@ export const PROJECTS: Project[] = [
     icon: 'fa-solid fa-chart-line' 
   },
   {
-    id: '3',
+    id: '4',
     title: 'AI CHATBOT with AMAZON BEDROCK',
     description: 'Multi-turn, interactive chatbot powered by the Amazon Nova 2 Lite model engineered with a conversational context memory and real-time safety guardrails.',
     tags: ['Python', 'Linux', 'AWS CloudShell', 'Amazon Bedrock', 'Bedrock Converse API', ' BedrockGuardrails'],
@@ -27,7 +35,7 @@ export const PROJECTS: Project[] = [
     icon:  'fa-solid fa-microchip-ai'   
   },
   {
-    id: '4',
+    id: '5',
     title: 'AI IDEA GENERATOR',
     description: 'Integrate artificial intelligence into an application',
     tags: ['Python', 'Streamlit', 'OPENAI'],
@@ -35,7 +43,7 @@ export const PROJECTS: Project[] = [
     icon: 'fa-brain'    
   },
   {
-    id: '5',
+    id: '6',
     title: 'CI/CD (Continuous Integration/Continuous Delivery)',
     description: 'CI/CD pipeline to deploy a Flask application',
     tags: ['Git', 'GitHub', 'Jenkins', 'AWS EC2', 'AWS Elastic Beanstalk', 'Python'],
@@ -43,7 +51,7 @@ export const PROJECTS: Project[] = [
     icon: 'fa-infinity'
   },
   {
-    id: '6',
+    id: '7',
     title: 'Redis-Challenge',
     description: 'Created a local Kubernetes environment using K3d to deploy an application (which consists of a MongoExpress frontend & MongoDB backend)',
     tags: ['Linux', 'Redis', 'Docker', 'Kubernetes', 'Minikube', 'Python'],
@@ -51,7 +59,7 @@ export const PROJECTS: Project[] = [
     icon: 'fa-database'
   },
   {
-    id: '7',
+    id: '8',
     title: 'Notifications / Alerts System',
     description: 'Send real-time notifications to subscribed users via SMS/Email.',
     tags: ['Amazon SNS', 'AWS Lambda', 'Amazon EventBridge', 'AWS CLI', 'Python', 'External API'],
@@ -59,7 +67,7 @@ export const PROJECTS: Project[] = [
     icon: 'fa-bell'
   },
   {
-    id: '8',
+    id: '9',
     title: 'MongoDB App',
     description: 'Created a local Kubernetes environment using K3d to deploy an application (which consists of a MongoExpress frontend & MongoDB backend)',
     tags: ['K3D', 'Kubernetes', 'MongoDB', 'MongoExpress', 'Docker'],
