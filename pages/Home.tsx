@@ -59,18 +59,24 @@ const VisitorCounter: React.FC = () => {
 
 const Home: React.FC = () => {
   const certifications = [
+      {
+      name: "Terraform Associate 004",
+      date: "Q2/2027 (LOADING...)",
+      issuer: "Hashicorp",
+      icon: "fa-solid fa-cubes"
+    },  
+    {
+      name: "Certified Kubernetes Administrator (CKA)",
+      date: "Q1/2027 (LOADING...)",
+      issuer: "The Linux Foundation",
+      icon: "si-kubernetes"
+    },
     {
       name: "AWS Certified Solutions Architect Associate (SAA-C03)",
       date: "Q4/2026 (LOADING...)",
       issuer: "Amazon Web Services",
       icon: "fa-brands fa-aws"
     },
-      {
-      name: "Terraform Associate 004",
-      date: "Q3/2026 (LOADING...)",
-      issuer: "Hashicorp",
-      icon: "fa-solid fa-cubes"
-    },  
     {
       name: "Google AI Professional Certificate",
       date: "06/2026",
