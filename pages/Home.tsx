@@ -69,7 +69,7 @@ const Home: React.FC = () => {
       name: "Certified Kubernetes Administrator (CKA)",
       date: "Q1/2027 (LOADING...)",
       issuer: "The Linux Foundation",
-      icon: "si-kubernetes"
+      icon: "fa-solid fa-dharmachakra"
     },
     {
       name: "AWS Certified Solutions Architect Associate (SAA-C03)",
